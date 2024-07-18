@@ -1,0 +1,46 @@
+* {
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;   
+}
+h1{
+    font-weight: 900 !important;
+    font-size: 50px !important;
+}
+.a_nav_button:hover{
+    background-color: rgb(27, 27, 157) !important;
+}
+.a_menu{
+    color: rgb(61, 61, 61) !important;
+}
+.a_menu:hover{
+    color: rgb(227, 249, 35) !important;
+    
+}
+
+/* .a_tdbr{
+    border: 5px dotted black;
+} */
+.a_button_2{
+    background-color: rgb(224, 92, 92) !important;
+}
+.a_button_2:hover{
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid red;
+    color: red !important;
+    margin-left: 1px;
+}
+.a_button_3{
+    border: 2px solid rgb(224, 92, 92) !important;
+    background-color: white !important;
+    color:rgb(224, 92, 92) !important;
+}
+.a_button_3:hover{
+    border: 1px solid rgb(224, 92, 92) !important;
+}
+
+@media (max-width: 992px){
+    .navbar-nav{
+        align-items: center;
+    }
+}
