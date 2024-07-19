@@ -44,3 +44,11 @@ h1{
         align-items: center;
     }
 }
+.span_title{
+    width: 190px;
+    background-color: rgb(151, 170, 237);
+    padding: 7px 13px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
