@@ -1,54 +1,184 @@
 * {
     font-family: "Baloo 2", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;   
+
 }
-h1{
+
+.a_tbdr {
+    border: 1px dotted black;
+}
+
+header {
+    font-weight: 700;
+}
+
+main {
+    height: 5000px;
+}
+
+h1 {
     font-weight: 900 !important;
     font-size: 50px !important;
 }
-.a_nav_button:hover{
+
+.a_nav_button:hover {
     background-color: rgb(27, 27, 157) !important;
 }
-.a_menu{
+
+.a_menu {
     color: rgb(61, 61, 61) !important;
 }
-.a_menu:hover{
+
+.a_menu:hover {
     color: rgb(227, 249, 35) !important;
-    
+
 }
 
 /* .a_tdbr{
     border: 5px dotted black;
 } */
-.a_button_2{
+.a_button_2 {
     background-color: rgb(224, 92, 92) !important;
 }
-.a_button_2:hover{
+
+.a_button_2:hover {
     background-color: rgb(255, 255, 255) !important;
     border: 1px solid red;
     color: red !important;
     margin-left: 1px;
 }
-.a_button_3{
+
+.a_button_3 {
     border: 2px solid rgb(224, 92, 92) !important;
     background-color: white !important;
-    color:rgb(224, 92, 92) !important;
+    color: rgb(224, 92, 92) !important;
 }
-.a_button_3:hover{
+
+.a_button_3:hover {
     border: 1px solid rgb(224, 92, 92) !important;
 }
 
-@media (max-width: 992px){
-    .navbar-nav{
+.uis_heading {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
         align-items: center;
     }
+
+    .uis_heading {
+        font-size: 30px;
+    }
+
+    .uis_paregraph{
+        font-size: 10px;
+    }
 }
-.span_title{
+
+@media (min-width: 992px) {
+
+    .a_left_2 {
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+
+}
+
+
+
+
+.span_title {
     width: 190px;
     background-color: rgb(151, 170, 237);
     padding: 7px 13px;
     border-radius: 20px;
     font-size: 13px;
     font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.learnmore_button {
+    background-color: rgb(59, 59, 223);
+    border: none;
+
+}
+
+.a_left_2 {
+    background-image: url(https://fullresponsivebootstrap.netlify.app/images/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+}
+
+.a_feature_section {
+    min-height: 300px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.21), -1px -1px 5px rgba(128, 128, 128, 0.21);
+}
+
+.icon_container {
+    width: 100px;
+    height: 100px;
+    border-radius: 120px;
+    background-color: rgb(206, 90, 196);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 12px 0px;
+    box-shadow: 0px 3px 0px gray;
+    transition: 0.3s ease-in-out;
+}
+
+.icon_container:hover {
+    background-color: rgb(67, 67, 255);
+    box-shadow: 0px 5px 0px rgb(0, 0, 176);
+}
+
+.feature_section_heading {
+    color: rgb(67, 101, 197);
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.img_set {
+    background-image: linear-gradient(rgba(65, 65, 202, 0.82), rgba(54, 54, 234, 0.76)), url(https://fullresponsivebootstrap.netlify.app/images/clients.jpg);
+    height: 220px;
+    width: 100%;
+    background-attachment: fixed;
+    margin: 100px 0px;
+}
+
+.under_img_set {
+    height: 220px;
+}
+
+.project_navbar{
+    color: rgba(0, 0, 0, 0617);
+    text-decoration: none;
+    padding: 5px 9px;
+    border: 1px solid rgba(0, 0,0,0.42);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+}
+.project_navbar:hover{
+    background-color: rgb(22, 89, 189);
+    color: white;
+    border: none;
+}
+ .active{
+    background-color: rgb(22, 89, 189);
+    color: white;
+    border: none;
 }
